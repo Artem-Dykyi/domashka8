@@ -1,0 +1,210 @@
+div h3:first-child {
+    color: pink;
+}
+
+#greycol{
+    color: gray;
+}
+
+p:first-child {
+    color: red;
+}
+
+div ~ p {
+    color: green;
+}
+
+.yellow{
+    color: yellow;
+}
+
+
+
+/* section 1 */
+
+.title {
+    color: rgb(127, 168, 255);
+    text-shadow: 9px 10px 12px;
+}
+
+.title:hover{
+    color: brown;
+
+}
+
+.title{
+    text-align: center;
+}
+
+a{
+    color: blue;
+}
+a:link, a:visited{
+    color: rgb(226, 43, 43);
+}
+
+.section1{
+    background-color: violet;   
+}
+
+.title1{
+    color: rgb(165, 38, 38);
+    text-shadow: 3px 4px 8px;
+}
+
+.title1:hover{
+    color: chocolate;
+    font-size: 30px;
+}
+
+.title1{
+    text-align: center;
+}
+
+.list-item1 {
+    color: darkblue;
+}
+
+.list-item1:first-child {
+    color: chartreuse;
+}
+
+/* section 2 */
+
+.title2{
+    color: chocolate;
+    text-shadow: 3px 4px 8px;
+}
+
+.title2:hover{
+    color: rgb(165, 38, 38);
+    font-size: 30px;
+}
+
+.title2{
+    text-align: center;
+}
+
+.section2{
+    background-color: rgb(147, 209, 209);
+}
+
+.list-item2{
+    color: aliceblue;
+}
+
+.list-item2:nth-child(even){
+    color: black;
+}
+
+/* section 3 */ 
+
+.title3{
+    color: rgb(165, 38, 38);
+    text-shadow: 3px 4px 8px;
+}
+
+.title3:hover{
+    color: chocolate;
+    font-size: 30px;
+}
+
+.title3{
+    text-align: center;
+}
+
+.section3{
+    background-color:violet;
+}
+
+.list-item3{
+    color: darkblue;
+}
+
+.list-item3:nth-child(3){
+    color: chartreuse;
+}
+
+/* section 4 */
+
+.title4{
+    color: chocolate;
+    text-shadow: 3px 4px 8px;
+}
+
+.title4:hover{
+    color: rgb(165, 38, 38);
+    font-size: 30px;
+}
+
+.title4{
+    text-align: center;
+}
+
+.section4{
+    background-color: rgb(147, 209, 209);
+}
+
+.list-item4{
+    color: aliceblue;
+}
+
+.list-item4:nth-child(odd){
+    color: black;
+}
+
+/* section 5 */ 
+
+.title5{
+    color: rgb(165, 38, 38);
+    text-shadow: 3px 4px 8px;
+}
+
+.title5{
+    text-align: center;
+}
+
+.section5{
+    background-color:violet;
+}
+
+.list-item5{
+    color: darkblue;
+}
+
+.title5:hover{
+    color: chocolate;
+    font-size: 30px;
+}
+
+.list-item5:last-child{
+    color: chartreuse;
+}
+
+button{
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(235, 188, 154);
+    height: 40px;
+    width: 60px;
+}
+
+button:link, button:focus {
+    background-color: rgb(211, 84, 143);
+    border-radius: 12px;
+    border: none;
+}
+
+.linkk{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.linkk:link, .linkk:visited{
+    color: rgb(100, 237, 180);
+}
+
+
+
+
+   
